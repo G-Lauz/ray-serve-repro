@@ -1,7 +1,5 @@
 from ray import serve
 
-from foobar.bar.abstract_deployment import AbstractDeployment
-
 from .ray import RayCluster
 
 class Cluster():

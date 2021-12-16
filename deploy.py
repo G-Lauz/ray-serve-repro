@@ -1,4 +1,3 @@
-from subprocess import call
 from ray import serve
 from foobar.bar import AbstractDeployment
 from foobar.foo import Cluster
